@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>redhat</groupId>
-  <artifactId>Demos</artifactId>
+  <groupId>com.redhat.demos</groupId>
+  <artifactId>BuildEntAppsIn60Min</artifactId>
   <version>1.0</version>
-  <name>Demos</name>
-  <description>Demos for Summit sessions</description>
+  <name>BuildEntAppsIn60Min</name>
+  <description>Summit 2015 - Build your next enterprise application in 60 minutes with JBoss Middleware</description>
   <build>
     <plugins>
       <plugin>
