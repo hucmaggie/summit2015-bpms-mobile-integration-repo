@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat.demos</groupId>
   <artifactId>BuildEntAppIn60Min</artifactId>
-  <version>2.1</version>
+  <version>3.0</version>
   <name>BuildEntAppIn60Min</name>
   <description>Summit 2015 - Build your next enterprise application in 60 minutes with JBoss Middleware</description>
   <build>
