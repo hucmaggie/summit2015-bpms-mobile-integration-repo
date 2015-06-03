@@ -1,0 +1,126 @@
+
+<form id="303269721">
+<property name="name" value="AdjudicateClaim-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="8" name="driversPolicy" type="InputText" id="1852457448">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acPolicyNo (driversPolicy)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acPolicyNo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="claimDate" type="InputTextInteger" id="1452412406">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acClaimDate (claimDate)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acClaimDate"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="vehicleColor" type="InputText" id="709608899">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acVehColor (vehicleColor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acVehColor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="driversEmail" type="InputText" id="1326102784">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acEmail (driversEmail)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acEmail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="claimDescription" type="InputText" id="1293014237">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acClaimDesc (claimDescription)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acClaimDesc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="driversLicense" type="InputText" id="695818313">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acDLNumber (driversLicense)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acDLNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="vehicleMake" type="InputText" id="564520247">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acVehMake (vehicleMake)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acVehMake"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="claimPhoto" type="Document" id="1456300478">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acClaimPhoto (claimPhoto)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acClaimPhoto"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="11" name="vehicleLicense" type="InputText" id="1827049845">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acVehLicense (vehicleLicense)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acVehLicense"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="driversName" type="InputText" id="358054563">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acName (driversName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="driversPhone" type="InputText" id="880403072">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acPhone (driversPhone)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acPhone"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="paymentAmount" type="InputTextInteger" id="1898994697">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;paymentAmount (paymentAmount)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="paymentAmount"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="claimLocation" type="InputText" id="1221391863">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acClaimLocation (claimLocation)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acClaimLocation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="vehicleModel" type="InputText" id="1298988983">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acVehModel (vehicleModel)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acVehModel"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="vehicleYear" type="InputTextInteger" id="1751977142">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;acVehYear (vehicleYear)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="acVehYear"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="acClaimDate" name="#FF54A7" type="basicType" outId="" value="java.lang.Integer" id="claimDate"/>
+<dataHolder inputId="acClaimDesc" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="claimDescription"/>
+<dataHolder inputId="acClaimLocation" name="#9BCAFA" type="basicType" outId="" value="java.lang.String" id="claimLocation"/>
+<dataHolder inputId="acClaimPhoto" name="#B29FE4" type="basicType" outId="" value="org.jbpm.document.Document" id="claimPhoto"/>
+<dataHolder inputId="acEmail" name="#FF8881" type="basicType" outId="" value="java.lang.String" id="driversEmail"/>
+<dataHolder inputId="acDLNumber" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="driversLicense"/>
+<dataHolder inputId="acName" name="#A7E690" type="basicType" outId="" value="java.lang.String" id="driversName"/>
+<dataHolder inputId="acPhone" name="#000000" type="basicType" outId="" value="java.lang.String" id="driversPhone"/>
+<dataHolder inputId="acPolicyNo" name="#0000A0" type="basicType" outId="" value="java.lang.String" id="driversPolicy"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="paymentAmount" value="java.lang.Integer" id="paymentAmount"/>
+<dataHolder inputId="acVehColor" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="vehicleColor"/>
+<dataHolder inputId="acVehLicense" name="#FF54A7" type="basicType" outId="" value="java.lang.String" id="vehicleLicense"/>
+<dataHolder inputId="acVehMake" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="vehicleMake"/>
+<dataHolder inputId="acVehModel" name="#9BCAFA" type="basicType" outId="" value="java.lang.String" id="vehicleModel"/>
+<dataHolder inputId="acVehYear" name="#B29FE4" type="basicType" outId="" value="java.lang.Integer" id="vehicleYear"/>
+</form>
